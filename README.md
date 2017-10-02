@@ -87,7 +87,7 @@ Review some of the common tips and suggestions [here](https://github.com/openshi
 
 
 ### Adding Webhooks and Making Code Changes
-Since OpenShift V3 does not provide a git repository out of the box, you can configure your github repository to make a webhook call whenever you push your code.
+Since OpenShift V3 does not provide a git repository out of the box, you can configure your github repository to make a webhook call whenever you push your code. Remember that your OpenShift cluster must be resolvable.
 
 1. From the Web Console homepage, navigate to your project
 2. Click on Browse > Builds
